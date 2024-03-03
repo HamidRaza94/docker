@@ -12,7 +12,7 @@ WORKDIR /app
 COPY package*.json .
 
 # Install the dependency
-RUN npm Install
+RUN npm install
 
 # Copy all file to working directory
 COPY . .
